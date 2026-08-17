@@ -28,8 +28,8 @@ title-block-banner: false
 <section id="home" class="hero section-anchor" aria-labelledby="hero-title">
   <div class="hero-copy reveal">
     <p class="eyebrow">INDUSTRIAL AND SYSTEMS ENGINEERING · AI &amp; OPERATIONS RESEARCH</p>
-    <h1 id="hero-title">I use data and quantitative models to understand complex systems and support better decisions.</h1>
-    <p class="hero-intro">Kaitao Liao is an undergraduate student in Industrial and Systems Engineering at the Georgia Institute of Technology. His concentration is Artificial Intelligence and Operations Research for Decisions.</p>
+    <h1 id="hero-title">I use data and quantitative models to improve decisions in complex systems.</h1>
+    <p class="hero-intro">I am an undergraduate student in Industrial and Systems Engineering at the Georgia Institute of Technology. My concentration is Artificial Intelligence and Operations Research for Decisions.</p>
     <div class="button-row" aria-label="Featured links">
       <a class="button button-primary" href="#projects">View Projects</a>
       <!-- TODO: Add your resume PDF at assets/resume/kaitao-liao-resume.pdf. -->
@@ -42,8 +42,7 @@ title-block-banner: false
     <!-- TODO: Replace this placeholder with your portrait at assets/images/portrait.jpg, then replace the div with an img using alt="Portrait of Kaitao Liao". -->
     <div class="portrait-placeholder" role="img" aria-label="Professional portrait placeholder">
       <span class="placeholder-kicker">PORTRAIT</span>
-      <strong>Your photo here</strong>
-      <small>Replace with a professional headshot</small>
+      <strong>Portrait coming soon</strong>
     </div>
     <p class="portrait-caption">Kaitao Liao · Georgia Tech</p>
   </div>
@@ -56,22 +55,23 @@ title-block-banner: false
   </div>
   <div class="about-grid">
     <div class="prose reveal">
-      <p>Kaitao studies Industrial and Systems Engineering at Georgia Tech after previously studying Applied Mathematics and Statistics at Emory University. He is interested in using quantitative methods to examine real systems, clarify uncertainty, and inform decisions.</p>
-      <p>His concentration in Artificial Intelligence and Operations Research for Decisions connects these interests with practical modeling and analysis.</p>
+      <p>I study Industrial and Systems Engineering at Georgia Tech after previously studying Applied Mathematics and Statistics at Emory University. I am interested in using quantitative methods to understand real systems and make better decisions under uncertainty.</p>
+      <p>My concentration in Artificial Intelligence and Operations Research for Decisions connects these interests with practical modeling and analysis.</p>
     </div>
     <div class="education reveal" aria-labelledby="education-title">
       <h3 id="education-title">Education</h3>
       <article class="education-item">
         <p class="item-label">GEORGIA INSTITUTE OF TECHNOLOGY</p>
-        <h4>Bachelor’s degree in Industrial and Systems Engineering</h4>
+        <h4>B.S. in Industrial and Systems Engineering</h4>
         <p>Concentration: Artificial Intelligence and Operations Research for Decisions</p>
-        <p class="todo">TODO: Expected graduation date</p>
+        <p>Expected May 2028</p>
       </article>
       <article class="education-item">
         <p class="item-label">EMORY UNIVERSITY</p>
-        <h4>Previous undergraduate study in Applied Mathematics and Statistics</h4>
+        <h4>Applied Mathematics and Statistics</h4>
         <p>Minor in Artificial Intelligence</p>
-        <p class="todo">TODO: Attendance dates</p>
+        <p>2024–2026</p>
+        <p>Activities: Emory AI and Data Association; Emory Chinese Basketball Team</p>
       </article>
     </div>
   </div>
@@ -88,13 +88,10 @@ title-block-banner: false
       <div class="timeline-content">
         <p class="item-label">RESEARCH EXPERIENCE</p>
         <h3>Georgia Tech ISyE Summer Research</h3>
-        <p class="role">Undergraduate Researcher <span>·</span> <span class="todo-inline">TODO: Exact program name and dates</span></p>
-        <p>Investigated generative optimization methods for high-dimensional black-box problems. The work included computational experiments across benchmark functions and comparisons with established optimization approaches.</p>
-        <ul class="todo-list">
-          <li>TODO: Faculty advisor</li>
-          <li>TODO: Final verified results</li>
-          <li>TODO: Poster or report link</li>
-        </ul>
+        <p class="role">Undergraduate Researcher</p>
+        <!-- TODO: Add the exact program name and verified dates. -->
+        <!-- TODO: Add the faculty advisor, final verified results, and poster or report link. -->
+        <p>Investigated generative optimization methods for high-dimensional black-box problems. Conducted computational experiments across benchmark functions and compared model behavior with established optimization approaches.</p>
       </div>
     </article>
     <article class="timeline-item reveal">
@@ -102,12 +99,9 @@ title-block-banner: false
       <div class="timeline-content">
         <p class="item-label">RESEARCH EXPERIENCE</p>
         <h3>Whole-Heart Segmentation Research</h3>
-        <p class="role"><span class="todo-inline">TODO: Exact organization, role title, and dates</span></p>
-        <p>Conducted medical image segmentation experiments across CT and MRI data. The research involved evaluating model behavior and segmentation quality using methods that included nnU-Net and SAM-Med3D.</p>
-        <ul class="todo-list">
-          <li>TODO: Publication or workshop status</li>
-          <li>TODO: Project link</li>
-        </ul>
+        <!-- TODO: Add the exact organization, role title, and verified dates. -->
+        <!-- TODO: Add the publication or workshop status and project link. -->
+        <p>Conducted medical image segmentation experiments using CT and MRI data. Evaluated segmentation quality with methods that included nnU-Net and SAM-Med3D.</p>
       </div>
     </article>
   </div>
@@ -129,22 +123,22 @@ title-block-banner: false
     <div class="project-copy">
       <p class="item-label">FEATURED PROJECT · DECISION SUPPORT</p>
       <h3>Flight Connection Probability Simulator</h3>
-      <p>The simulator estimates the probability of making a U.S. domestic flight connection under arrival-delay uncertainty. It applies Monte Carlo simulation to more than 20 million historical flight records.</p>
+      <p>Built a simulation-based tool that estimates the probability of making a U.S. domestic flight connection under arrival-delay uncertainty. The analysis uses Monte Carlo simulation with more than 20 million historical flight records.</p>
       <div class="method-grid">
         <div>
           <h4>Method</h4>
-          <p>Historical delay behavior is studied by route and airline with a 24-month lookback, then used to simulate uncertain connection outcomes.</p>
+          <p>I modeled historical delay behavior by route and airline using a 24-month lookback, then simulated uncertain connection outcomes.</p>
         </div>
         <div>
           <h4>Purpose</h4>
-          <p>The analysis translates past flight performance into practical evidence for evaluating connection risk.</p>
+          <p>The project translates historical flight performance into practical evidence for evaluating connection risk.</p>
         </div>
       </div>
       <div class="button-row">
         <!-- TODO: Replace # with the deployed Flight Connection Probability Simulator URL. -->
-        <a class="button button-primary disabled-link" href="#" aria-disabled="true">Live Demo · TODO</a>
+        <span class="button button-primary disabled-link" aria-disabled="true">Live Demo</span>
         <!-- TODO: Replace # with the Flight Connection Probability Simulator repository URL. -->
-        <a class="button button-secondary disabled-link" href="#" aria-disabled="true">GitHub · TODO</a>
+        <span class="button button-secondary disabled-link" aria-disabled="true">GitHub</span>
       </div>
     </div>
   </article>

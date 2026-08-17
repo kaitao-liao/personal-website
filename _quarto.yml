@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - 404.qmd
+  resources:
+    - robots.txt
+
+website:
+  title: "Kaitao Liao | Industrial and Systems Engineering"
+  site-url: "https://kaitao-liao.github.io/personal-website/"
+  site-path: "/personal-website/"
+  description: "Kaitao Liao studies Industrial and Systems Engineering at Georgia Tech, with interests in quantitative research and data-driven decision problems."
+  favicon: assets/images/favicon-placeholder.svg # TODO: Replace with your final favicon.
+  open-graph:
+    title: "Kaitao Liao | Industrial and Systems Engineering"
+    description: "Georgia Tech student focused on quantitative research and data-driven decision problems."
+    site-name: "Kaitao Liao"
+  page-navigation: false
+  search: false
+  navbar: false
+
+format:
+  html:
+    theme: none
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    include-in-header:
+      text: |
+        <meta name="theme-color" content="#0a192f">
+        <meta name="robots" content="index, follow">
+    include-after-body:
+      - scripts.html
+
+execute:
+  freeze: auto

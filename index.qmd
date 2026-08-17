@@ -1,0 +1,177 @@
+---
+pagetitle: "Kaitao Liao | Industrial and Systems Engineering"
+description: "Kaitao Liao studies Industrial and Systems Engineering at Georgia Tech, with interests in quantitative research and data-driven decision problems."
+title-block-banner: false
+---
+
+```{=html}
+<div class="site-shell">
+<header class="site-header" aria-label="Site header">
+  <a class="brand" href="#home" aria-label="Kaitao Liao, return to home">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <span>Kaitao Liao</span>
+  </a>
+  <div class="header-actions">
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Open navigation</span><span aria-hidden="true">Menu</span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#experience">EXPERIENCE</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch color theme"><span aria-hidden="true">☀</span></button>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero section-anchor" aria-labelledby="hero-title">
+  <div class="hero-copy reveal">
+    <p class="eyebrow">INDUSTRIAL AND SYSTEMS ENGINEERING · AI &amp; OPERATIONS RESEARCH</p>
+    <h1 id="hero-title">I use data and quantitative models to understand complex systems and support better decisions.</h1>
+    <p class="hero-intro">Kaitao Liao is an undergraduate student in Industrial and Systems Engineering at the Georgia Institute of Technology. His concentration is Artificial Intelligence and Operations Research for Decisions.</p>
+    <div class="button-row" aria-label="Featured links">
+      <a class="button button-primary" href="#projects">View Projects</a>
+      <!-- TODO: Add your resume PDF at assets/resume/kaitao-liao-resume.pdf. -->
+      <a class="button button-secondary" href="assets/resume/kaitao-liao-resume.pdf" download>Download Resume</a>
+      <a class="button button-text" href="https://www.linkedin.com/in/kaitao-liao/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+      <a class="button button-text" href="https://github.com/kaitao-liao" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+  <div class="portrait-wrap reveal">
+    <!-- TODO: Replace this placeholder with your portrait at assets/images/portrait.jpg, then replace the div with an img using alt="Portrait of Kaitao Liao". -->
+    <div class="portrait-placeholder" role="img" aria-label="Professional portrait placeholder">
+      <span class="placeholder-kicker">PORTRAIT</span>
+      <strong>Your photo here</strong>
+      <small>Replace with a professional headshot</small>
+    </div>
+    <p class="portrait-caption">Kaitao Liao · Georgia Tech</p>
+  </div>
+</section>
+
+<section id="about" class="content-section section-anchor" aria-labelledby="about-title">
+  <div class="section-heading reveal">
+    <p class="section-number">01</p>
+    <h2 id="about-title">About</h2>
+  </div>
+  <div class="about-grid">
+    <div class="prose reveal">
+      <p>Kaitao studies Industrial and Systems Engineering at Georgia Tech after previously studying Applied Mathematics and Statistics at Emory University. He is interested in using quantitative methods to examine real systems, clarify uncertainty, and inform decisions.</p>
+      <p>His concentration in Artificial Intelligence and Operations Research for Decisions connects these interests with practical modeling and analysis.</p>
+    </div>
+    <div class="education reveal" aria-labelledby="education-title">
+      <h3 id="education-title">Education</h3>
+      <article class="education-item">
+        <p class="item-label">GEORGIA INSTITUTE OF TECHNOLOGY</p>
+        <h4>Bachelor’s degree in Industrial and Systems Engineering</h4>
+        <p>Concentration: Artificial Intelligence and Operations Research for Decisions</p>
+        <p class="todo">TODO: Expected graduation date</p>
+      </article>
+      <article class="education-item">
+        <p class="item-label">EMORY UNIVERSITY</p>
+        <h4>Previous undergraduate study in Applied Mathematics and Statistics</h4>
+        <p>Minor in Artificial Intelligence</p>
+        <p class="todo">TODO: Attendance dates</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="content-section section-anchor" aria-labelledby="experience-title">
+  <div class="section-heading reveal">
+    <p class="section-number">02</p>
+    <h2 id="experience-title">Experience</h2>
+  </div>
+  <div class="timeline">
+    <article class="timeline-item reveal">
+      <div class="timeline-marker" aria-hidden="true"></div>
+      <div class="timeline-content">
+        <p class="item-label">RESEARCH EXPERIENCE</p>
+        <h3>Georgia Tech ISyE Summer Research</h3>
+        <p class="role">Undergraduate Researcher <span>·</span> <span class="todo-inline">TODO: Exact program name and dates</span></p>
+        <p>Investigated generative optimization methods for high-dimensional black-box problems. The work included computational experiments across benchmark functions and comparisons with established optimization approaches.</p>
+        <ul class="todo-list">
+          <li>TODO: Faculty advisor</li>
+          <li>TODO: Final verified results</li>
+          <li>TODO: Poster or report link</li>
+        </ul>
+      </div>
+    </article>
+    <article class="timeline-item reveal">
+      <div class="timeline-marker" aria-hidden="true"></div>
+      <div class="timeline-content">
+        <p class="item-label">RESEARCH EXPERIENCE</p>
+        <h3>Whole-Heart Segmentation Research</h3>
+        <p class="role"><span class="todo-inline">TODO: Exact organization, role title, and dates</span></p>
+        <p>Conducted medical image segmentation experiments across CT and MRI data. The research involved evaluating model behavior and segmentation quality using methods that included nnU-Net and SAM-Med3D.</p>
+        <ul class="todo-list">
+          <li>TODO: Publication or workshop status</li>
+          <li>TODO: Project link</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="projects" class="content-section section-anchor" aria-labelledby="projects-title">
+  <div class="section-heading reveal">
+    <p class="section-number">03</p>
+    <h2 id="projects-title">Projects</h2>
+  </div>
+  <article class="featured-project reveal">
+    <div class="project-visual">
+      <!-- TODO: Replace this placeholder with a screenshot at assets/images/flight-simulator.jpg. -->
+      <div class="project-placeholder" role="img" aria-label="Flight Connection Probability Simulator screenshot placeholder">
+        <span class="route-code">ATL</span><span class="route-line" aria-hidden="true">✈</span><span class="route-code">LAX</span>
+        <small>Project screenshot placeholder</small>
+      </div>
+    </div>
+    <div class="project-copy">
+      <p class="item-label">FEATURED PROJECT · DECISION SUPPORT</p>
+      <h3>Flight Connection Probability Simulator</h3>
+      <p>The simulator estimates the probability of making a U.S. domestic flight connection under arrival-delay uncertainty. It applies Monte Carlo simulation to more than 20 million historical flight records.</p>
+      <div class="method-grid">
+        <div>
+          <h4>Method</h4>
+          <p>Historical delay behavior is studied by route and airline with a 24-month lookback, then used to simulate uncertain connection outcomes.</p>
+        </div>
+        <div>
+          <h4>Purpose</h4>
+          <p>The analysis translates past flight performance into practical evidence for evaluating connection risk.</p>
+        </div>
+      </div>
+      <div class="button-row">
+        <!-- TODO: Replace # with the deployed Flight Connection Probability Simulator URL. -->
+        <a class="button button-primary disabled-link" href="#" aria-disabled="true">Live Demo · TODO</a>
+        <!-- TODO: Replace # with the Flight Connection Probability Simulator repository URL. -->
+        <a class="button button-secondary disabled-link" href="#" aria-disabled="true">GitHub · TODO</a>
+      </div>
+    </div>
+  </article>
+  <div class="coming-soon reveal">
+    <span aria-hidden="true">＋</span>
+    <div><h3>More projects coming soon</h3><p>This space is ready for future quantitative research and decision-analysis work.</p></div>
+    <!-- TODO: Replace this area when another verified project is ready. -->
+  </div>
+</section>
+
+<section id="contact" class="contact-section section-anchor" aria-labelledby="contact-title">
+  <div class="contact-inner reveal">
+    <p class="section-number">04</p>
+    <h2 id="contact-title">Let’s connect.</h2>
+    <p>Conversations about research, quantitative projects, and internship opportunities are welcome.</p>
+    <div class="contact-links">
+      <a href="mailto:kliao47@gatech.edu"><span>Email</span><strong>kliao47@gatech.edu</strong></a>
+      <a href="https://www.linkedin.com/in/kaitao-liao/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>kaitao-liao</strong></a>
+      <a href="https://github.com/kaitao-liao" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>kaitao-liao</strong></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="current-year"></span> Kaitao Liao</p>
+  <a href="#home">Back to top ↑</a>
+</footer>
+</div>
+```

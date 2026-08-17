@@ -1,0 +1,21 @@
+---
+title: "Page not found"
+pagetitle: "Page not found | Kaitao Liao"
+description: "The requested page could not be found."
+---
+
+::: {.error-page}
+## The page you’re looking for isn’t here.
+
+The link may be outdated or the address may have been entered incorrectly.
+
+[Return to the homepage](index.html)
+:::
+
+<style>
+.error-page { min-height: 75vh; display: grid; place-content: center; max-width: 680px; margin: auto; padding: 7rem 1rem; }
+.error-page h2 { margin-bottom: 1rem; }
+.error-page p { color: var(--muted); }
+.error-page a { color: var(--gold-bright); }
+</style>
+

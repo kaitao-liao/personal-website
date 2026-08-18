@@ -46,7 +46,6 @@ title-block-banner: false
       <span class="placeholder-kicker">PORTRAIT</span>
       <strong>Portrait coming soon</strong>
     </div>
-    <p class="portrait-caption">Kaitao Liao · Georgia Tech</p>
   </div>
 </section>
 

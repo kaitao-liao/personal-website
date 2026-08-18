@@ -93,11 +93,6 @@ title-block-banner: false
         <p class="experience-date">June 2026 – August 2026</p>
         <p class="research-project"><strong>Research Project:</strong> Generative Boltzmann Optimization via Conditional Diffusion Models for Black-Box Optimization</p>
         <p>Evaluated a diffusion-based generative optimization framework on benchmark problems, with a focus on its performance in high-dimensional search spaces.</p>
-        <figure class="experience-poster">
-          <a class="poster-link" href="assets/poster/final-poster.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the Generative Boltzmann Optimization research poster as a PDF in a new tab">
-            <img src="assets/poster/poster-preview.webp" alt="Preview of the Generative Boltzmann Optimization via Conditional Diffusion Models research poster" width="1920" height="1440">
-          </a>
-        </figure>
         <div class="experience-actions" aria-label="Research project resources">
           <a class="button button-primary" href="assets/poster/final-poster.pdf" target="_blank" rel="noopener noreferrer">View Poster</a>
           <a class="button button-secondary" href="assets/poster/index.html" target="_blank" rel="noopener noreferrer">Explore Project</a>

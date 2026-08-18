@@ -138,9 +138,8 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
 .route-visual:hover .route-track { filter: brightness(1.25); }
 .route-visual:hover .route-dot { background: var(--gold); box-shadow: 0 0 0 5px color-mix(in srgb, var(--gold) 14%, transparent); }
 .project-copy { padding: clamp(2rem, 5vw, 4.5rem); align-self: center; }
-.project-copy > p:not(.item-label), .method-grid p, .coming-soon p { color: var(--muted); }
-.method-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2rem; }
-.method-grid h3 { margin-bottom: .35rem; font-family: inherit; font-size: .75rem; letter-spacing: .13em; text-transform: uppercase; }
+.project-copy > p, .coming-soon p { color: var(--muted); }
+.project-copy .button-row { margin-top: 1.5rem; }
 .coming-soon { display: flex; gap: 1.25rem; align-items: center; margin-top: 2rem; padding: 2rem; border: 1px dashed var(--line); }
 .coming-soon > span { color: var(--gold); font-size: 2rem; }
 .coming-soon h2, .coming-soon p { margin-bottom: 0; }
@@ -188,7 +187,7 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
   .timeline { margin-left: 0; }
   .timeline-content { padding-left: .3rem; }
   .experience-actions .button { flex: 1 1 9rem; }
-  .method-grid, .contact-links { grid-template-columns: 1fr; }
+  .contact-links { grid-template-columns: 1fr; }
   .project-copy { padding: 2rem 1.25rem; }
   .contact-links { gap: 1px; }
 }

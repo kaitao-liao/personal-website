@@ -21,8 +21,7 @@ title-block-banner: false
         </div>
       </div>
     </a>
-    <div class="project-copy"><p class="item-label">FEATURED PROJECT · DECISION SUPPORT</p><h2>Flight Connection Probability Simulator</h2><p>Built a simulation-based tool that estimates the probability of making a U.S. domestic flight connection under arrival-delay uncertainty. The analysis uses Monte Carlo simulation with more than 20 million historical flight records.</p>
-      <div class="method-grid"><div><h3>Method</h3><p>I modeled historical delay behavior by route and airline using a 24-month lookback, then simulated uncertain connection outcomes.</p></div><div><h3>Purpose</h3><p>The project translates historical flight performance into practical evidence for evaluating connection risk.</p></div></div>
+    <div class="project-copy"><h2>Flight Connection Probability Simulator</h2><p>An interactive decision-support tool that estimates the probability of making a U.S. domestic flight connection.</p>
       <div class="button-row"><a class="button button-primary" href="https://flight-connection-probability.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a></div>
     </div>
   </article>

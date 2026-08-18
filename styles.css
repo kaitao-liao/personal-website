@@ -63,9 +63,9 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--gold-bright); o
 .menu-toggle { display: none; padding: .55rem .75rem; border-radius: .3rem; font: inherit; font-size: .75rem; text-transform: uppercase; letter-spacing: .1em; }
 main, .site-footer { width: min(var(--max-width), 90vw); margin: 0 auto; }
 .section-anchor { scroll-margin-top: 5rem; }
-.hero { min-height: 100vh; display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(250px, .45fr); gap: clamp(2.5rem, 4vw, 4rem); align-items: center; padding: 9rem 0 6rem; }
+.hero { width: min(1320px, calc(100vw - 4rem)); min-height: 100vh; margin-left: 50%; display: grid; grid-template-columns: minmax(0, 1fr) minmax(360px, 420px); gap: clamp(2.5rem, 4vw, 4rem); align-items: center; padding: 9rem 0 6rem; transform: translateX(-50%); }
 .eyebrow, .item-label, .section-number { margin: 0 0 1.25rem; color: var(--gold-bright); font-size: .72rem; font-weight: 800; letter-spacing: .16em; }
-.eyebrow { width: min(74rem, calc(100vw - 6rem)); font-size: 1.25rem; }
+.eyebrow { font-size: 1.125rem; letter-spacing: -.055em; }
 .eyebrow-line { display: block; overflow-wrap: break-word; }
 .eyebrow-line + .eyebrow-line { margin-top: .35rem; }
 h1, h2, h3, h4, p { margin-top: 0; }
@@ -85,8 +85,8 @@ h1 { max-width: 1050px; margin-bottom: 1.75rem; font-size: clamp(3rem, 4.5vw, 4.
 .button-secondary { border-color: var(--gold); color: var(--gold-bright); }
 .button-text { padding-inline: .45rem; color: var(--muted); }
 .disabled-link { cursor: not-allowed; opacity: .72; }
-.portrait-wrap { align-self: center; }
-.portrait-placeholder { aspect-ratio: 4 / 5; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; text-align: center; background: var(--navy-soft); border: 1px solid var(--line); box-shadow: var(--shadow); position: relative; }
+.portrait-wrap { width: min(420px, 100%); align-self: center; justify-self: end; }
+.portrait-placeholder { width: 100%; height: 520px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; text-align: center; background: var(--navy-soft); border: 1px solid var(--line); box-shadow: var(--shadow); position: relative; }
 .portrait-placeholder::before, .portrait-placeholder::after { content: ""; position: absolute; width: 2.25rem; height: 2.25rem; }
 .portrait-placeholder::before { inset: 1rem auto auto 1rem; border-top: 1px solid var(--gold); border-left: 1px solid var(--gold); }
 .portrait-placeholder::after { inset: auto 1rem 1rem auto; border-right: 1px solid var(--gold); border-bottom: 1px solid var(--gold); }
@@ -140,13 +140,13 @@ h2 { margin: 0; font-size: clamp(2.5rem, 5vw, 4.6rem); }
 .reveal.visible { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } .reveal { opacity: 1; transform: none; } }
 @media (max-width: 900px) {
-  .eyebrow { width: auto; }
   .menu-toggle { display: block; }
   .site-nav { position: absolute; top: calc(100% + 1px); left: 0; right: 0; display: none; flex-direction: column; align-items: stretch; gap: 0; padding: 1rem 5vw; background: var(--navy); border-bottom: 1px solid var(--line); }
   .site-nav.open { display: flex; }
   .site-nav a { padding: .9rem 0; }
-  .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 9rem; }
-  .portrait-wrap { width: min(440px, 100%); }
+  .hero { width: auto; margin-left: 0; grid-template-columns: 1fr; min-height: auto; padding-top: 9rem; transform: none; }
+  .portrait-wrap { justify-self: start; }
+  .portrait-placeholder { height: auto; aspect-ratio: 4 / 5; }
   .about-grid, .featured-project { grid-template-columns: 1fr; }
   .project-visual { min-height: 360px; }
   .project-placeholder { min-height: 328px; }
@@ -158,7 +158,7 @@ h2 { margin: 0; font-size: clamp(2.5rem, 5vw, 4.6rem); }
   main, .site-footer { width: min(100% - 2rem, var(--max-width)); }
   .hero { gap: 3rem; padding-bottom: 5rem; }
   h1 { font-size: clamp(2.35rem, 11vw, 3.4rem); }
-  .eyebrow { font-size: .9375rem; }
+  .eyebrow { font-size: .875rem; }
   .hero-identity { gap: .15rem .55rem; }
   .button-row .button { flex: 1 1 45%; }
   .timeline-item { gap: 1rem; }

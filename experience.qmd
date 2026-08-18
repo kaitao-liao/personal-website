@@ -27,11 +27,8 @@ title-block-banner: false
       <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">
         <h3>Emory AI Data Lab, Center for AI Learning — Emory University</h3>
         <p class="experience-date">September 2025 – December 2025</p>
-        <ul class="dash-list">
-          <li>Applied machine learning to NCAA player data to study and predict NBA draft outcomes.</li>
-          <li>Developed classification and regression models to estimate whether a player would be drafted and their likely draft position.</li>
-          <li>Examined model results to understand which aspects of college performance most influenced draft decisions.</li>
-        </ul>
+        <p class="research-project"><strong>Research Project:</strong> A Machine Learning Approach to Predicting NBA Draft Outcomes</p>
+        <p>Applied machine learning to NCAA player data to predict NBA draft outcomes, developing classification and regression models to estimate draft status and likely selection position. Examined model results to identify the aspects of college performance most influential in draft decisions.</p>
         <div class="experience-actions" aria-label="Emory AI Data Lab resources"><a class="button button-primary" href="assets/poster/emory-ai-data-lab-poster.pdf" target="_blank" rel="noopener noreferrer">View Poster</a></div>
       </div></article>
       <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">

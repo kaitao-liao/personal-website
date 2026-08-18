@@ -25,6 +25,18 @@ title-block-banner: false
       <div class="button-row"><a class="button button-primary" href="https://flight-connection-probability.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a></div>
     </div>
   </article>
+  <article class="featured-project reveal">
+    <a class="project-visual aircraft-visual" href="assets/reports/aircraft-survival-analysis.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the Aircraft Survival analysis report">
+      <div class="aircraft-canvas" aria-hidden="true">
+        <div class="lifecycle-row lifecycle-row-short"><span class="lifecycle-origin"></span><span class="lifecycle-track"></span><span class="lifecycle-plane">✈</span></div>
+        <div class="lifecycle-row lifecycle-row-medium"><span class="lifecycle-origin"></span><span class="lifecycle-track"></span><span class="lifecycle-plane">✈</span></div>
+        <div class="lifecycle-row lifecycle-row-long"><span class="lifecycle-origin"></span><span class="lifecycle-track"></span><span class="lifecycle-plane">✈</span></div>
+      </div>
+    </a>
+    <div class="project-copy"><h2>Statistical and Machine Learning Analysis of Aircraft Survival Across Global Airlines</h2><p>Explored how aircraft models and airline fleet strategies shape differences in service life across global fleets. Combined survival modeling with predictive analysis to compare retirement patterns and inform long-term fleet planning.</p>
+      <div class="button-row"><a class="button button-primary" href="assets/reports/aircraft-survival-analysis.pdf" target="_blank" rel="noopener noreferrer">View Report</a></div>
+    </div>
+  </article>
   <div class="coming-soon reveal"><span aria-hidden="true">＋</span><div><h2>More projects coming soon</h2><p>This space is ready for future quantitative research and decision-analysis work.</p></div><!-- TODO: Replace this area when another verified project is ready. --></div>
 </section>
 </main>

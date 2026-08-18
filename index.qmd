@@ -88,7 +88,6 @@ title-block-banner: false
     <article class="timeline-item reveal">
       <div class="timeline-marker" aria-hidden="true"></div>
       <div class="timeline-content">
-        <p class="item-label">RESEARCH EXPERIENCE</p>
         <h3>2026 ISyE Summer Scholars Program</h3>
         <p class="experience-date">June 2026 – August 2026</p>
         <p class="research-project"><strong>Research Project:</strong> Generative Boltzmann Optimization via Conditional Diffusion Models for Black-Box Optimization</p>
@@ -102,7 +101,6 @@ title-block-banner: false
     <article class="timeline-item reveal">
       <div class="timeline-marker" aria-hidden="true"></div>
       <div class="timeline-content">
-        <p class="item-label">RESEARCH EXPERIENCE</p>
         <h3>Whole-Heart Segmentation Research</h3>
         <!-- TODO: Add the exact organization, role title, and verified dates. -->
         <!-- TODO: Add the publication or workshop status and project link. -->

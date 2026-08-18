@@ -10,17 +10,17 @@ title-block-banner: false
   <div class="section-heading reveal"><p class="section-number">02</p><h1 id="experience-title">Experience</h1></div>
   <div class="timeline">
     <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">
-      <h2>2026 ISyE Summer Scholars Program</h2>
+      <h2>2026 ISyE Summer Scholars Program at Georgia Tech</h2>
       <p class="experience-date">June 2026 – August 2026</p>
       <p class="research-project"><strong>Research Project:</strong> Generative Boltzmann Optimization via Conditional Diffusion Models for Black-Box Optimization</p>
       <p>Evaluated a diffusion-based generative optimization framework on benchmark problems, with a focus on its performance in high-dimensional search spaces.</p>
       <div class="experience-actions" aria-label="Research project resources"><a class="button button-primary" href="assets/poster/final-poster.pdf" target="_blank" rel="noopener noreferrer">View Poster</a><a class="button button-secondary" href="assets/poster/index.html" target="_blank" rel="noopener noreferrer">Explore Project</a></div>
     </div></article>
     <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">
-      <h2>Whole-Heart Segmentation Research</h2>
-      <!-- TODO: Add the exact organization, role title, and verified dates. -->
-      <!-- TODO: Add the publication or workshop status and project link. -->
-      <p>Conducted medical image segmentation experiments using CT and MRI data. Evaluated segmentation quality with methods that included nnU-Net and SAM-Med3D.</p>
+      <h2>2026 NSF REU Program at Purdue University</h2>
+      <p class="experience-date">June 2026 – August 2026</p>
+      <p class="research-project"><strong>Research Project:</strong> Improving Cross-Site Whole-Heart Segmentation</p>
+      <p>Developed a modality-routed 3D segmentation pipeline to improve cross-site robustness across cardiac CT and MRI data. Site-informed appearance augmentation improved performance on held-out data from both modalities.</p>
     </div></article>
   </div>
 </section>

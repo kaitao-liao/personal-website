@@ -14,7 +14,6 @@ title-block-banner: false
     </p>
     <h1 id="hero-title">From understanding models to improving decisions.</h1>
     <p class="hero-identity"><strong class="identity-name">Kaitao Liao <span lang="zh-Hans">廖凯涛</span></strong><span class="identity-contact"><span aria-hidden="true">·</span> <a href="mailto:kliao47@gatech.edu">kliao47@gatech.edu</a></span></p>
-    <div class="button-row" aria-label="Featured links"><a class="button button-primary" href="projects.html">View Projects</a></div>
   </div>
   <div class="portrait-wrap reveal">
     <!-- TODO: Replace this placeholder with your portrait at assets/images/portrait.jpg, then replace the div with an img using alt="Portrait of Kaitao Liao". -->

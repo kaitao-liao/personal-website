@@ -89,11 +89,19 @@ title-block-banner: false
       <div class="timeline-marker" aria-hidden="true"></div>
       <div class="timeline-content">
         <p class="item-label">RESEARCH EXPERIENCE</p>
-        <h3>Georgia Tech ISyE Summer Research</h3>
-        <p class="role">Undergraduate Researcher</p>
-        <!-- TODO: Add the exact program name and verified dates. -->
-        <!-- TODO: Add the faculty advisor, final verified results, and poster or report link. -->
-        <p>Investigated generative optimization methods for high-dimensional black-box problems. Conducted computational experiments across benchmark functions and compared model behavior with established optimization approaches.</p>
+        <h3>2026 ISyE Summer Scholars Program</h3>
+        <p class="experience-date">June 2026 – August 2026</p>
+        <p class="research-project"><strong>Research Project:</strong> Generative Boltzmann Optimization via Conditional Diffusion Models for Black-Box Optimization</p>
+        <p>Evaluated a diffusion-based generative optimization framework on benchmark problems, with a focus on its performance in high-dimensional search spaces.</p>
+        <figure class="experience-poster">
+          <a class="poster-link" href="assets/poster/final-poster.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the Generative Boltzmann Optimization research poster as a PDF in a new tab">
+            <img src="assets/poster/poster-preview.webp" alt="Preview of the Generative Boltzmann Optimization via Conditional Diffusion Models research poster" width="1920" height="1440">
+          </a>
+        </figure>
+        <div class="experience-actions" aria-label="Research project resources">
+          <a class="button button-primary" href="assets/poster/final-poster.pdf" target="_blank" rel="noopener noreferrer">View Poster</a>
+          <a class="button button-secondary" href="assets/poster/index.html" target="_blank" rel="noopener noreferrer">Explore Project</a>
+        </div>
       </div>
     </article>
     <article class="timeline-item reveal">

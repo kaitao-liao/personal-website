@@ -8,21 +8,57 @@ title-block-banner: false
 <main id="page-top">
 <section class="content-section page-section" aria-labelledby="experience-title">
   <div class="section-heading reveal"><p class="section-number">02</p><h1 id="experience-title">Experience</h1></div>
-  <div class="timeline">
-    <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">
-      <h2>2026 ISyE Summer Scholars Program at Georgia Tech</h2>
-      <p class="experience-date">June 2026 – August 2026</p>
-      <p class="research-project"><strong>Research Project:</strong> Generative Boltzmann Optimization via Conditional Diffusion Models for Black-Box Optimization</p>
-      <p>Evaluated a diffusion-based generative optimization framework on benchmark problems, with a focus on its performance in high-dimensional search spaces.</p>
-      <div class="experience-actions" aria-label="Research project resources"><a class="button button-primary" href="assets/poster/final-poster.pdf" target="_blank" rel="noopener noreferrer">View Poster</a><a class="button button-secondary" href="assets/poster/index.html" target="_blank" rel="noopener noreferrer">Explore Project</a></div>
-    </div></article>
-    <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">
-      <h2>2026 NSF REU Program at Purdue University</h2>
-      <p class="experience-date">June 2026 – August 2026</p>
-      <p class="research-project"><strong>Research Project:</strong> Improving Cross-Site Whole-Heart Segmentation</p>
-      <p>Developed a modality-routed 3D segmentation pipeline to improve cross-site robustness across cardiac CT and MRI data. Site-informed appearance augmentation improved performance on held-out data from both modalities.</p>
-    </div></article>
-  </div>
+  <section class="experience-group" aria-labelledby="research-experience-title">
+    <h2 class="experience-group-title reveal" id="research-experience-title">Research Experience</h2>
+    <div class="timeline">
+      <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">
+        <h3>2026 ISyE Summer Scholars Program — Georgia Institute of Technology</h3>
+        <p class="experience-date">June 2026 – August 2026</p>
+        <p class="research-project"><strong>Research Project:</strong> Generative Boltzmann Optimization via Conditional Diffusion Models for Black-Box Optimization</p>
+        <p>Evaluated a diffusion-based generative optimization framework on benchmark problems, with a focus on its performance in high-dimensional search spaces.</p>
+        <div class="experience-actions" aria-label="Research project resources"><a class="button button-primary" href="assets/poster/final-poster.pdf" target="_blank" rel="noopener noreferrer">View Poster</a><a class="button button-secondary" href="assets/poster/index.html" target="_blank" rel="noopener noreferrer">Explore Project</a></div>
+      </div></article>
+      <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">
+        <h3>2026 NSF REU Program — Purdue University</h3>
+        <p class="experience-date">June 2026 – August 2026</p>
+        <p class="research-project"><strong>Research Project:</strong> Improving Cross-Site Whole-Heart Segmentation</p>
+        <p>Developed a modality-routed 3D segmentation pipeline to improve cross-site robustness across cardiac CT and MRI data. Site-informed appearance augmentation improved performance on held-out data from both modalities.</p>
+      </div></article>
+      <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">
+        <h3>Emory AI Data Lab, Center for AI Learning — Emory University</h3>
+        <p class="experience-date">September 2025 – December 2025</p>
+        <ul class="dash-list">
+          <li>Conducted applied machine learning and statistical modeling on real-world datasets containing over 50,000 social and behavioral records, using Python to uncover insights through regression and classification.</li>
+          <li>Built and evaluated logistic and linear regression models achieving R² scores above 0.85 and classification accuracies around 90%, identifying key predictors of community-level outcomes.</li>
+          <li>Presented findings through technical reports and public showcases, translating quantitative results into actionable insights.</li>
+        </ul>
+      </div></article>
+      <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">
+        <h3>Department of Physics — Emory University</h3>
+        <p class="experience-date">August 2025 – May 2026</p>
+        <ul class="dash-list">
+          <li>Contributed to Dr. Jiang-Xiazi Lin’s soft-matter and quantum materials research on low-dimensional systems, with a focus on fabrication and characterization of 2D transition metal dichalcogenide (TMD) materials.</li>
+          <li>Prepared lab samples by cutting silicon substrates and exfoliating 2D materials, coordinating with lab members to assemble specimens for testing.</li>
+          <li>Performed substrate preparation tasks such as pre-patterning and electron-beam lithography (EBL) to define device structures prior to 2D material transfer.</li>
+        </ul>
+      </div></article>
+    </div>
+  </section>
+  <section class="experience-group" aria-labelledby="work-experience-title">
+    <h2 class="experience-group-title reveal" id="work-experience-title">Work Experience</h2>
+    <div class="timeline">
+      <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">
+        <h3>Division of Biological and Biomedical Sciences — Emory Laney Graduate School</h3>
+        <p class="experience-role">Project and Administrative Assistant</p>
+        <p class="experience-date">September 2025 – May 2026</p>
+        <ul class="dash-list">
+          <li>Managed and validated thousands of alumni and research records across multiple academic programs, maintaining high standards of data accuracy and consistency.</li>
+          <li>Analyzed institutional data and prepared concise summaries that informed internal planning and supported day-to-day administrative work.</li>
+          <li>Streamlined and digitized record-management workflows by archiving and verifying legacy data, improving data accessibility.</li>
+        </ul>
+      </div></article>
+    </div>
+  </section>
 </section>
 </main>
 ```

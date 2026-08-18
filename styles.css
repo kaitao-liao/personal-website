@@ -65,6 +65,8 @@ main, .site-footer { width: min(var(--max-width), 90vw); margin: 0 auto; }
 .section-anchor { scroll-margin-top: 5rem; }
 .hero { min-height: 100vh; display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(250px, .45fr); gap: clamp(2.5rem, 4vw, 4rem); align-items: center; padding: 9rem 0 6rem; }
 .eyebrow, .item-label, .section-number { margin: 0 0 1.25rem; color: var(--gold-bright); font-size: .72rem; font-weight: 800; letter-spacing: .16em; }
+.eyebrow-line { display: block; overflow-wrap: break-word; }
+.eyebrow-line + .eyebrow-line { margin-top: .35rem; }
 h1, h2, h3, h4, p { margin-top: 0; }
 h1, h2, .contact-section h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; line-height: 1.08; letter-spacing: -.025em; }
 h1 { max-width: 1050px; margin-bottom: 1.75rem; font-size: clamp(3rem, 4.5vw, 4.5rem); line-height: .98; }

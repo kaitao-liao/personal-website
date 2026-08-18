@@ -27,7 +27,10 @@ title-block-banner: false
 <main>
 <section id="home" class="hero section-anchor" aria-labelledby="hero-title">
   <div class="hero-copy reveal">
-    <p class="eyebrow">INDUSTRIAL AND SYSTEMS ENGINEERING</p>
+    <p class="eyebrow">
+      <span class="eyebrow-line">UNDERGRADUATE STUDENT (JUNIOR) · INDUSTRIAL AND SYSTEMS ENGINEERING</span>
+      <span class="eyebrow-line">GEORGIA INSTITUTE OF TECHNOLOGY</span>
+    </p>
     <h1 id="hero-title">From understanding models to improving decisions.</h1>
     <p class="hero-identity">
       <strong class="identity-name">Kaitao Liao <span lang="zh-Hans">廖凯涛</span></strong>

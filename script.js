@@ -36,13 +36,13 @@
   reveals.forEach((element) => revealObserver.observe(element));
 
   const links = [...nav.querySelectorAll('a')];
-  const sectionObserver = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) links.forEach((link) => link.classList.toggle('active', link.hash === `#${entry.target.id}`));
-    });
-  }, { rootMargin: '-35% 0px -55%', threshold: 0 });
-  document.querySelectorAll('main section[id]').forEach((section) => sectionObserver.observe(section));
+  const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+  links.forEach((link) => {
+    const active = link.getAttribute('href') === currentPage;
+    link.classList.toggle('active', active);
+    if (active) link.setAttribute('aria-current', 'page');
+  });
 
-  document.getElementById('current-year').textContent = new Date().getFullYear();
+  const currentYear = document.getElementById('current-year');
+  if (currentYear) currentYear.textContent = new Date().getFullYear();
 })();
-

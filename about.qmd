@@ -1,0 +1,24 @@
+---
+pagetitle: "About | Kaitao Liao"
+description: "Academic profile and education in Industrial and Systems Engineering, applied mathematics, statistics, and artificial intelligence."
+title-block-banner: false
+---
+
+```{=html}
+<main id="page-top">
+<section class="content-section page-section" aria-labelledby="about-title">
+  <div class="section-heading reveal"><p class="section-number">01</p><h1 id="about-title">About</h1></div>
+  <div class="about-grid">
+    <div class="prose reveal">
+      <p>I am a junior studying Industrial and Systems Engineering at Georgia Tech. My academic interests lie in the mathematical foundations of modern AI and the responsible use of quantitative models in real operational settings.</p>
+      <p>My research has taught me how to turn open-ended questions into well-defined problems and evaluate possible solutions through computational experiments.</p>
+    </div>
+    <div class="education reveal" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+      <article class="education-item"><p class="item-label">GEORGIA INSTITUTE OF TECHNOLOGY</p><h3>B.S. in Industrial and Systems Engineering</h3><p>Concentration: Artificial Intelligence and Operations Research for Decisions</p><p>Expected May 2028</p></article>
+      <article class="education-item"><p class="item-label">EMORY UNIVERSITY</p><h3>Applied Mathematics and Statistics</h3><p>Minor in Artificial Intelligence</p><p>2024–2026</p><p>GPA: 3.95/4.00</p><p>Activities: Emory AI and Data Association; Emory Chinese Basketball Team</p></article>
+    </div>
+  </div>
+</section>
+</main>
+```

@@ -3,6 +3,10 @@ project:
   output-dir: _site
   render:
     - index.qmd
+    - about.qmd
+    - experience.qmd
+    - projects.qmd
+    - contact.qmd
     - 404.qmd
   resources:
     - robots.txt
@@ -31,7 +35,10 @@ format:
       text: |
         <meta name="theme-color" content="#0a192f">
         <meta name="robots" content="index, follow">
+    include-before-body:
+      - header.html
     include-after-body:
+      - footer.html
       - scripts.html
 
 execute:

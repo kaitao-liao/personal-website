@@ -1,0 +1,16 @@
+---
+pagetitle: "Contact | Kaitao Liao"
+description: "Contact Kaitao Liao by email, LinkedIn, or GitHub."
+title-block-banner: false
+---
+
+```{=html}
+<main id="page-top">
+<section class="contact-section page-section" aria-labelledby="contact-title">
+  <div class="section-heading reveal"><p class="section-number">04</p><h1 id="contact-title">Contact</h1></div>
+  <div class="contact-inner reveal"><h2>Let’s connect.</h2><p>Conversations about research, quantitative projects, and internship opportunities are welcome.</p>
+    <div class="contact-links"><a href="mailto:kliao47@gatech.edu"><span>Email</span><strong>kliao47@gatech.edu</strong></a><a href="https://www.linkedin.com/in/kaitao-liao/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>kaitao-liao</strong></a><a href="https://github.com/kaitao-liao" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>kaitao-liao</strong></a></div>
+  </div>
+</section>
+</main>
+```

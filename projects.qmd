@@ -1,0 +1,21 @@
+---
+pagetitle: "Projects | Kaitao Liao"
+description: "Quantitative research and decision-support projects by Kaitao Liao."
+title-block-banner: false
+---
+
+```{=html}
+<main id="page-top">
+<section class="content-section page-section" aria-labelledby="projects-title">
+  <div class="section-heading reveal"><p class="section-number">03</p><h1 id="projects-title">Projects</h1></div>
+  <article class="featured-project reveal">
+    <div class="project-visual"><!-- TODO: Replace this placeholder with a screenshot at assets/images/flight-simulator.jpg. --><div class="project-placeholder" role="img" aria-label="Flight Connection Probability Simulator screenshot placeholder"><span class="route-code">ATL</span><span class="route-line" aria-hidden="true">✈</span><span class="route-code">LAX</span><small>Project screenshot placeholder</small></div></div>
+    <div class="project-copy"><p class="item-label">FEATURED PROJECT · DECISION SUPPORT</p><h2>Flight Connection Probability Simulator</h2><p>Built a simulation-based tool that estimates the probability of making a U.S. domestic flight connection under arrival-delay uncertainty. The analysis uses Monte Carlo simulation with more than 20 million historical flight records.</p>
+      <div class="method-grid"><div><h3>Method</h3><p>I modeled historical delay behavior by route and airline using a 24-month lookback, then simulated uncertain connection outcomes.</p></div><div><h3>Purpose</h3><p>The project translates historical flight performance into practical evidence for evaluating connection risk.</p></div></div>
+      <div class="button-row"><!-- TODO: Replace # with the deployed Flight Connection Probability Simulator URL. --><span class="button button-primary disabled-link" aria-disabled="true">Live Demo</span><!-- TODO: Replace # with the Flight Connection Probability Simulator repository URL. --><span class="button button-secondary disabled-link" aria-disabled="true">GitHub</span></div>
+    </div>
+  </article>
+  <div class="coming-soon reveal"><span aria-hidden="true">＋</span><div><h2>More projects coming soon</h2><p>This space is ready for future quantitative research and decision-analysis work.</p></div><!-- TODO: Replace this area when another verified project is ready. --></div>
+</section>
+</main>
+```

@@ -28,10 +28,11 @@ title-block-banner: false
         <h3>Emory AI Data Lab, Center for AI Learning — Emory University</h3>
         <p class="experience-date">September 2025 – December 2025</p>
         <ul class="dash-list">
-          <li>Conducted applied machine learning and statistical modeling on real-world datasets containing over 50,000 social and behavioral records, using Python to uncover insights through regression and classification.</li>
-          <li>Built and evaluated logistic and linear regression models achieving R² scores above 0.85 and classification accuracies around 90%, identifying key predictors of community-level outcomes.</li>
-          <li>Presented findings through technical reports and public showcases, translating quantitative results into actionable insights.</li>
+          <li>Applied machine learning to NCAA player data to study and predict NBA draft outcomes.</li>
+          <li>Developed classification and regression models to estimate whether a player would be drafted and their likely draft position.</li>
+          <li>Examined model results to understand which aspects of college performance most influenced draft decisions.</li>
         </ul>
+        <div class="experience-actions" aria-label="Emory AI Data Lab resources"><a class="button button-primary" href="assets/poster/emory-ai-data-lab-poster.pdf" target="_blank" rel="noopener noreferrer">View Poster</a></div>
       </div></article>
       <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">
         <h3>Department of Physics — Emory University</h3>
@@ -55,6 +56,16 @@ title-block-banner: false
           <li>Managed and validated thousands of alumni and research records across multiple academic programs, maintaining high standards of data accuracy and consistency.</li>
           <li>Analyzed institutional data and prepared concise summaries that informed internal planning and supported day-to-day administrative work.</li>
           <li>Streamlined and digitized record-management workflows by archiving and verifying legacy data, improving data accessibility.</li>
+        </ul>
+      </div></article>
+      <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">
+        <h3>Shenzhen Southport Golf Supplies Co., Ltd.</h3>
+        <p class="experience-role">Factory Operations and Data Assistant</p>
+        <p class="experience-date">June 2023 – August 2023</p>
+        <ul class="dash-list">
+          <li>Learned the basic steps of golf product manufacturing, including material preparation, simple assembly, and packaging.</li>
+          <li>Recorded daily production numbers and organized the data for supervisor review.</li>
+          <li>Assisted with material preparation and observed the tools and machines used throughout the production process.</li>
         </ul>
       </div></article>
     </div>

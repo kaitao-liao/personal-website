@@ -16,5 +16,4 @@ The workflow in `.github/workflows/publish.yml` renders and deploys the site whe
 
 ## Content to replace
 
-Search the project for `TODO:`. These markers identify missing dates, affiliations, links, verified research details, the portrait, the resume, the project screenshot, and the final favicon.
-
+Search the project for `TODO:`. These markers identify missing dates, affiliations, links, verified research details, the portrait, the project screenshot, and the final favicon.

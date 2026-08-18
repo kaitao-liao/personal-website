@@ -29,12 +29,12 @@ title-block-banner: false
   <div class="hero-copy reveal">
     <p class="eyebrow">INDUSTRIAL AND SYSTEMS ENGINEERING</p>
     <h1 id="hero-title">From understanding models to improving decisions.</h1>
+    <p class="hero-identity">
+      <strong class="identity-name">Kaitao Liao <span lang="zh-Hans">廖凯涛</span></strong>
+      <span class="identity-contact"><span aria-hidden="true">·</span> <a href="mailto:kliao47@gatech.edu">kliao47@gatech.edu</a></span>
+    </p>
     <div class="button-row" aria-label="Featured links">
       <a class="button button-primary" href="#projects">View Projects</a>
-      <!-- TODO: Add your resume PDF at assets/resume/kaitao-liao-resume.pdf. -->
-      <a class="button button-secondary" href="assets/resume/kaitao-liao-resume.pdf" download>Download Resume</a>
-      <a class="button button-text" href="https://www.linkedin.com/in/kaitao-liao/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
-      <a class="button button-text" href="https://github.com/kaitao-liao" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
     </div>
   </div>
   <div class="portrait-wrap reveal">

@@ -69,6 +69,11 @@ h1, h2, h3, h4, p { margin-top: 0; }
 h1, h2, .contact-section h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; line-height: 1.08; letter-spacing: -.025em; }
 h1 { max-width: 1050px; margin-bottom: 1.75rem; font-size: clamp(3rem, 4.5vw, 4.5rem); line-height: .98; }
 .hero-intro { max-width: 690px; color: var(--muted); font-size: clamp(1.02rem, 1.4vw, 1.2rem); }
+.hero-identity { display: flex; flex-wrap: wrap; gap: .25rem .65rem; align-items: baseline; margin-bottom: 0; color: var(--muted); font-size: clamp(1.05rem, 1.6vw, 1.35rem); }
+.identity-name { color: var(--text); font-family: Georgia, "Times New Roman", "Noto Serif CJK SC", "Songti SC", SimSun, serif; font-weight: 700; white-space: nowrap; }
+.identity-contact { display: inline-flex; gap: .65rem; align-items: baseline; white-space: nowrap; }
+.identity-contact a { color: var(--gold-bright); text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--gold) 55%, transparent); text-decoration-thickness: 1px; text-underline-offset: .24em; }
+.identity-contact a:hover { text-decoration-color: currentColor; }
 .button-row { display: flex; flex-wrap: wrap; gap: .8rem; align-items: center; margin-top: 2rem; }
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 2.9rem; padding: .7rem 1.1rem; border: 1px solid transparent; border-radius: .2rem; font-size: .82rem; font-weight: 750; text-decoration: none; transition: transform 160ms ease, background 160ms ease, color 160ms ease; }
 .button:hover { transform: translateY(-2px); }
@@ -150,6 +155,7 @@ h2 { margin: 0; font-size: clamp(2.5rem, 5vw, 4.6rem); }
   main, .site-footer { width: min(100% - 2rem, var(--max-width)); }
   .hero { gap: 3rem; padding-bottom: 5rem; }
   h1 { font-size: clamp(2.35rem, 11vw, 3.4rem); }
+  .hero-identity { gap: .15rem .55rem; }
   .button-row .button { flex: 1 1 45%; }
   .timeline-item { gap: 1rem; }
   .timeline-content { padding-left: .3rem; }

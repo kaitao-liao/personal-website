@@ -27,9 +27,8 @@ title-block-banner: false
 <main>
 <section id="home" class="hero section-anchor" aria-labelledby="hero-title">
   <div class="hero-copy reveal">
-    <p class="eyebrow">INDUSTRIAL AND SYSTEMS ENGINEERING · AI &amp; OPERATIONS RESEARCH</p>
-    <h1 id="hero-title">I use data and quantitative models to improve decisions in complex systems.</h1>
-    <p class="hero-intro">I am an undergraduate student in Industrial and Systems Engineering at the Georgia Institute of Technology. My concentration is Artificial Intelligence and Operations Research for Decisions.</p>
+    <p class="eyebrow">INDUSTRIAL AND SYSTEMS ENGINEERING</p>
+    <h1 id="hero-title">From understanding models to improving decisions.</h1>
     <div class="button-row" aria-label="Featured links">
       <a class="button button-primary" href="#projects">View Projects</a>
       <!-- TODO: Add your resume PDF at assets/resume/kaitao-liao-resume.pdf. -->
@@ -55,8 +54,8 @@ title-block-banner: false
   </div>
   <div class="about-grid">
     <div class="prose reveal">
-      <p>I study Industrial and Systems Engineering at Georgia Tech after previously studying Applied Mathematics and Statistics at Emory University. I am interested in using quantitative methods to understand real systems and make better decisions under uncertainty.</p>
-      <p>My concentration in Artificial Intelligence and Operations Research for Decisions connects these interests with practical modeling and analysis.</p>
+      <p>I am a junior studying Industrial and Systems Engineering at Georgia Tech. My academic interests lie in the mathematical foundations of modern AI and the responsible use of quantitative models in real operational settings.</p>
+      <p>My research has taught me how to turn open-ended questions into well-defined problems and evaluate possible solutions through computational experiments.</p>
     </div>
     <div class="education reveal" aria-labelledby="education-title">
       <h3 id="education-title">Education</h3>
@@ -71,6 +70,7 @@ title-block-banner: false
         <h4>Applied Mathematics and Statistics</h4>
         <p>Minor in Artificial Intelligence</p>
         <p>2024–2026</p>
+        <p>GPA: 3.95/4.00</p>
         <p>Activities: Emory AI and Data Association; Emory Chinese Basketball Team</p>
       </article>
     </div>

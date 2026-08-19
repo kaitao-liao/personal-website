@@ -126,11 +126,11 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
 .experience-actions .button { min-width: 9rem; }
 .featured-project { display: grid; grid-template-columns: .9fr 1.1fr; background: var(--navy-soft); border: 1px solid var(--line); box-shadow: var(--shadow); }
 .featured-project + .featured-project { margin-top: 2rem; }
-.project-visual { min-height: 470px; padding: 1rem; }
+.project-visual { width: 100%; aspect-ratio: 4 / 3; align-self: start; padding: 0; }
 .route-visual { position: relative; display: block; color: inherit; text-decoration: none; transition: transform 180ms ease; }
 .route-visual:hover { transform: translateY(-2px); }
 .route-visual:focus-visible { outline: 3px solid var(--gold-bright); outline-offset: 4px; }
-.route-canvas { height: 100%; min-height: 438px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: clamp(2rem, 5vw, 3.5rem); padding: clamp(1.5rem, 4vw, 3rem); background-color: var(--surface); background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 38px 38px; border: 1px solid var(--line); }
+.route-canvas { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: clamp(2rem, 5vw, 3.5rem); padding: clamp(1.5rem, 4vw, 3rem); background-color: var(--surface); background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 38px 38px; border: 1px solid var(--line); }
 .route-kicker { color: var(--muted); font-size: .7rem; font-weight: 800; letter-spacing: .16em; text-align: center; }
 .route-itinerary { width: 100%; display: grid; grid-template-columns: auto minmax(3.25rem, 1fr) auto minmax(3.25rem, 1fr) auto; align-items: center; }
 .route-stop { display: flex; flex-direction: column; align-items: center; gap: 1rem; }
@@ -145,10 +145,10 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
 .route-visual:hover .route-plane { transform: translate(calc(-50% + 4px), -50%) rotate(6deg); }
 .route-visual:hover .route-track { filter: brightness(1.25); }
 .route-visual:hover .route-dot { background: var(--gold); box-shadow: 0 0 0 5px color-mix(in srgb, var(--gold) 14%, transparent); }
-.aircraft-image-link { display: flex; align-items: center; color: inherit; text-decoration: none; transition: transform 180ms ease; }
+.aircraft-image-link { display: block; color: inherit; text-decoration: none; transition: transform 180ms ease; }
 .aircraft-image-link:hover { transform: translateY(-2px); }
 .aircraft-image-link:focus-visible { outline: 3px solid var(--gold-bright); outline-offset: 4px; }
-.aircraft-image-link img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+.aircraft-image-link img { display: block; width: 100%; height: 100%; border: 1px solid var(--line); }
 .project-copy { padding: clamp(2rem, 5vw, 4.5rem); align-self: center; }
 .project-copy > p, .coming-soon p { color: var(--muted); }
 .project-copy .button-row { margin-top: 1.5rem; }
@@ -179,8 +179,6 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
   .portrait-wrap { justify-self: start; }
   .portrait-placeholder { height: auto; aspect-ratio: 4 / 5; }
   .about-grid, .featured-project { grid-template-columns: 1fr; }
-  .project-visual { min-height: 360px; }
-  .route-canvas { min-height: 328px; }
 }
 @media (max-width: 640px) {
   .site-header { padding-inline: 1rem; }
@@ -192,8 +190,7 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
   .eyebrow { font-size: .875rem; }
   .hero-identity { gap: .15rem .55rem; }
   .button-row .button { flex: 1 1 45%; }
-  .project-visual { min-height: 280px; }
-  .route-canvas { min-height: 248px; gap: 2rem; padding: 1.25rem; }
+  .route-canvas { gap: 2rem; padding: 1.25rem; }
   .route-itinerary { grid-template-columns: auto minmax(2.5rem, 1fr) auto minmax(2.5rem, 1fr) auto; }
   .timeline-item { gap: 1rem; }
   .timeline { margin-left: 0; }

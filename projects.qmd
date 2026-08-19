@@ -9,26 +9,30 @@ title-block-banner: false
 <section class="content-section page-section" aria-labelledby="projects-title">
   <div class="section-heading reveal"><p class="section-number">03</p><h1 id="projects-title">Projects</h1></div>
   <article class="featured-project reveal">
-    <a class="project-visual route-visual" href="https://flight-connection-probability.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open the Flight Connection Probability Simulator live demo">
-      <div class="route-canvas" aria-hidden="true">
-        <span class="route-kicker">CONNECTING THROUGH JFK</span>
-        <div class="route-itinerary">
-          <span class="route-stop"><strong>ATL</strong><span class="route-dot"></span></span>
-          <span class="route-leg"><span class="route-track"></span><span class="route-plane">✈</span></span>
-          <span class="route-stop route-stop-connection"><strong>JFK</strong><span class="route-dot"></span></span>
-          <span class="route-leg"><span class="route-track"></span><span class="route-plane">✈</span></span>
-          <span class="route-stop"><strong>BOS</strong><span class="route-dot"></span></span>
+    <div class="project-media">
+      <a class="project-visual route-visual" href="https://flight-connection-probability.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open the Flight Connection Probability Simulator live demo">
+        <div class="route-canvas" aria-hidden="true">
+          <span class="route-kicker">CONNECTING THROUGH JFK</span>
+          <div class="route-itinerary">
+            <span class="route-stop"><strong>ATL</strong><span class="route-dot"></span></span>
+            <span class="route-leg"><span class="route-track"></span><span class="route-plane">✈</span></span>
+            <span class="route-stop route-stop-connection"><strong>JFK</strong><span class="route-dot"></span></span>
+            <span class="route-leg"><span class="route-track"></span><span class="route-plane">✈</span></span>
+            <span class="route-stop"><strong>BOS</strong><span class="route-dot"></span></span>
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
+    </div>
     <div class="project-copy"><h2>Flight Connection Probability Simulator</h2><p>An interactive decision-support tool that estimates the probability of making a U.S. domestic flight connection.</p>
       <div class="button-row"><a class="button button-primary" href="https://flight-connection-probability.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a></div>
     </div>
   </article>
   <article class="featured-project reveal">
-    <a class="project-visual aircraft-image-link" href="assets/reports/aircraft-survival-analysis.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the Aircraft Survival analysis report">
-      <img src="assets/images/aircraft-fleet-lifecycle.png" alt="Conceptual illustration comparing an active aircraft fleet with an aircraft entering retirement." width="1448" height="1086">
-    </a>
+    <div class="project-media">
+      <a class="project-visual aircraft-image-link" href="assets/reports/aircraft-survival-analysis.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the Aircraft Survival analysis report">
+        <img src="assets/images/aircraft-fleet-lifecycle.png" alt="Conceptual illustration comparing an active aircraft fleet with an aircraft entering retirement." width="1448" height="1086">
+      </a>
+    </div>
     <div class="project-copy"><h2>Statistical and Machine Learning Analysis of Aircraft Survival Across Global Airlines</h2><p>Explored how aircraft models and airline fleet strategies shape differences in service life across global fleets. Combined survival modeling with predictive analysis to compare retirement patterns and inform long-term fleet planning.</p>
       <div class="button-row"><a class="button button-primary" href="assets/reports/aircraft-survival-analysis.pdf" target="_blank" rel="noopener noreferrer">View Report</a></div>
     </div>

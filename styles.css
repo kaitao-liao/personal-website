@@ -126,7 +126,8 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
 .experience-actions .button { min-width: 9rem; }
 .featured-project { display: grid; grid-template-columns: .9fr 1.1fr; background: var(--navy-soft); border: 1px solid var(--line); box-shadow: var(--shadow); }
 .featured-project + .featured-project { margin-top: 2rem; }
-.project-visual { width: 100%; aspect-ratio: 4 / 3; align-self: center; padding: 0; }
+.project-media { min-width: 0; height: 100%; display: flex; align-items: center; justify-content: center; padding: 2rem; }
+.project-visual { width: 100%; max-width: 100%; aspect-ratio: 4 / 3; margin: 0; padding: 0; }
 .route-visual { position: relative; display: block; color: inherit; text-decoration: none; transition: transform 180ms ease; }
 .route-visual:hover { transform: translateY(-2px); }
 .route-visual:focus-visible { outline: 3px solid var(--gold-bright); outline-offset: 4px; }
@@ -179,6 +180,7 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
   .portrait-wrap { justify-self: start; }
   .portrait-placeholder { height: auto; aspect-ratio: 4 / 5; }
   .about-grid, .featured-project { grid-template-columns: 1fr; }
+  .project-media { height: auto; padding: 1rem; }
 }
 @media (max-width: 640px) {
   .site-header { padding-inline: 1rem; }

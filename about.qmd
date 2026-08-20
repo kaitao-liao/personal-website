@@ -15,8 +15,9 @@ title-block-banner: false
     </div>
     <div class="education reveal" aria-labelledby="education-title">
       <h2 id="education-title">Education</h2>
-      <article class="education-item"><p class="item-label">GEORGIA INSTITUTE OF TECHNOLOGY</p><h3>B.S. in Industrial and Systems Engineering</h3><p>Concentration: Artificial Intelligence and Operations Research for Decisions</p><p>Expected May 2028</p></article>
-      <article class="education-item"><p class="item-label">EMORY UNIVERSITY</p><h3>Applied Mathematics and Statistics</h3><p>Minor in Artificial Intelligence</p><p>2024 – 2026</p><p>GPA: 3.95/4.00</p><p>Activities: Emory AI and Data Association; Emory Chinese Basketball Team</p></article>
+      <article class="education-item"><p class="item-label">GEORGIA INSTITUTE OF TECHNOLOGY</p><h3>B.S. in Industrial Engineering</h3><p>Concentration: Artificial Intelligence and Operations Research for Decisions</p><p>August 2026 – May 2028 (Expected)</p></article>
+      <article class="education-item"><p class="item-label">EMORY UNIVERSITY</p><h3>Applied Mathematics and Statistics</h3><p>Minor in Artificial Intelligence</p><p>August 2024 – May 2026</p><p>GPA: 3.95/4.00</p><p>Activities: Emory AI and Data Association; Emory Chinese Basketball Team</p></article>
+      <article class="education-item"><p class="item-label">SHENZHEN SENIOR HIGH SCHOOL INTERNATIONAL DIVISION</p><h3>A-Level Curriculum</h3><p>September 2021 – June 2024</p><p>GPA: 4.27/4.30 (Weighted)</p><p>A-Level Results: Mathematics (A*) · Further Mathematics (A*) · Physics (A*) · Chemistry (A*) · Economics (A*)</p><h4>Awards &amp; Honors</h4><ul class="dash-list"><li>British Physics Olympiad, Round 1 — Top Gold (2022)</li><li>High School Mathematical Contest in Modeling — Finalist (2022)</li><li>American Mathematics Competitions 12 — Honor Roll, Top 5% (2022)</li></ul></article>
     </div>
   </div>
 </section>

@@ -9,7 +9,7 @@ title-block-banner: false
 <section class="hero" aria-labelledby="hero-title">
   <div class="hero-copy reveal">
     <p class="eyebrow">
-      <span class="eyebrow-line">UNDERGRADUATE STUDENT · INDUSTRIAL AND SYSTEMS ENGINEERING</span>
+      <span class="eyebrow-line">UNDERGRADUATE STUDENT · INDUSTRIAL ENGINEERING</span>
       <span class="eyebrow-line">GEORGIA INSTITUTE OF TECHNOLOGY</span>
     </p>
     <h1 id="hero-title">From understanding models to improving decisions.</h1>

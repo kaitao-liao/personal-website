@@ -10,7 +10,7 @@ title-block-banner: false
   <div class="section-heading reveal"><p class="section-number">01</p><h1 id="about-title">About</h1></div>
   <div class="about-grid">
     <div class="prose reveal">
-      <p>I am a junior studying Industrial and Systems Engineering at Georgia Tech. My academic interests lie in the mathematical foundations of modern AI and the responsible use of quantitative models in real operational settings.</p>
+      <p>I am a junior studying Industrial Engineering at Georgia Tech. My academic interests lie in the mathematical foundations of modern AI and the responsible use of quantitative models in real operational settings.</p>
       <p>My research has taught me how to turn open-ended questions into well-defined problems and evaluate possible solutions through computational experiments.</p>
     </div>
     <div class="education reveal" aria-labelledby="education-title">

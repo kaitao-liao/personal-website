@@ -34,11 +34,8 @@ title-block-banner: false
       <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">
         <h3>Department of Physics — Emory University</h3>
         <p class="experience-date">August 2025 – May 2026</p>
-        <ul class="dash-list">
-          <li>Contributed to Dr. Jiang-Xiazi Lin’s soft-matter and quantum materials research on low-dimensional systems, with a focus on fabrication and characterization of 2D transition metal dichalcogenide (TMD) materials.</li>
-          <li>Prepared lab samples by cutting silicon substrates and exfoliating 2D materials, coordinating with lab members to assemble specimens for testing.</li>
-          <li>Performed substrate preparation tasks such as pre-patterning and electron-beam lithography (EBL) to define device structures prior to 2D material transfer.</li>
-        </ul>
+        <p class="research-project"><strong>Research Project:</strong> Fabrication of Encapsulated 2D Material Heterostructures</p>
+        <p>Conducted research on encapsulated 2D material heterostructures by preparing silicon substrates and exfoliating thin material flakes. Used layer-transfer techniques to assemble the flakes into multilayer stacks, creating samples for further characterization and study.</p>
       </div></article>
     </div>
   </section>

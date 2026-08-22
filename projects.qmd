@@ -27,14 +27,9 @@ title-block-banner: false
       <div class="button-row"><a class="button button-primary" href="https://flight-connection-probability.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a></div>
     </div>
   </article>
-  <article class="featured-project reveal">
-    <div class="project-media">
-      <a class="project-visual dashboard-preview-link" href="power-bi-dashboard.html" aria-label="Open the U.S. Airline Operations Performance Dashboard project page">
-        <img src="assets/images/power-bi-dashboard-preview.png" alt="Overview page of the U.S. Airline Operations Performance Dashboard showing flight reliability, delay, and cancellation metrics." width="960" height="540">
-      </a>
-    </div>
+  <article class="featured-project power-bi-project reveal">
     <div class="project-copy"><h2>U.S. Airline Operations Performance Dashboard</h2><p>Built an interactive Power BI dashboard from U.S. flight records to examine how operational performance varies throughout the airline network. Transformed raw data with Power Query and developed a dimensional model with DAX measures to reveal delay patterns and reliability trends.</p>
-      <div class="button-row"><a class="button button-primary" href="power-bi-dashboard.html">View Dashboard</a></div>
+      <div class="button-row"><a class="button button-primary" href="https://app.powerbi.com/view?r=eyJrIjoiNjYzZDM3YjgtMjNjNi00NjdjLWJhM2ItNzY0MGI4NTcxY2Q4IiwidCI6Ijg0MjRjOGFiLTMxNWMtNDIzMS04Y2FkLTIwNWM4ZDJjMGU1NSJ9&amp;pageName=3c0e5d6b836ecff7fefd" target="_blank" rel="noopener noreferrer">Full Dashboard</a></div>
     </div>
   </article>
   <article class="featured-project reveal">

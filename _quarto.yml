@@ -6,7 +6,6 @@ project:
     - about.qmd
     - experience.qmd
     - projects.qmd
-    - power-bi-dashboard.qmd
     - contact.qmd
     - 404.qmd
   resources:

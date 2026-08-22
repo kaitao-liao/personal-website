@@ -29,6 +29,16 @@ title-block-banner: false
   </article>
   <article class="featured-project reveal">
     <div class="project-media">
+      <a class="project-visual dashboard-preview-link" href="power-bi-dashboard.html" aria-label="Open the U.S. Airline Operations Performance Dashboard project page">
+        <img src="assets/images/power-bi-dashboard-preview.png" alt="Overview page of the U.S. Airline Operations Performance Dashboard showing flight reliability, delay, and cancellation metrics." width="960" height="540">
+      </a>
+    </div>
+    <div class="project-copy"><h2>U.S. Airline Operations Performance Dashboard</h2><p>Built an interactive Power BI dashboard from U.S. flight records to examine how operational performance varies throughout the airline network. Transformed raw data with Power Query and developed a dimensional model with DAX measures to reveal delay patterns and reliability trends.</p>
+      <div class="button-row"><a class="button button-primary" href="power-bi-dashboard.html">View Dashboard</a></div>
+    </div>
+  </article>
+  <article class="featured-project reveal">
+    <div class="project-media">
       <a class="project-visual aircraft-image-link" href="assets/reports/aircraft-survival-analysis.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the Aircraft Survival analysis report">
         <img src="assets/images/aircraft-fleet-lifecycle.png" alt="Conceptual illustration comparing an active aircraft fleet with an aircraft entering retirement." width="1448" height="1086">
       </a>

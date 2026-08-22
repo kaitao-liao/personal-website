@@ -1,0 +1,24 @@
+---
+pagetitle: "U.S. Airline Operations Performance Dashboard | Kaitao Liao"
+description: "Interactive Power BI dashboard examining operational performance across the U.S. airline network."
+title-block-banner: false
+---
+
+```{=html}
+<main id="page-top">
+<section class="content-section page-section dashboard-page" aria-labelledby="dashboard-title">
+  <div class="section-heading reveal"><h1 id="dashboard-title">U.S. Airline Operations Performance Dashboard</h1></div>
+  <p class="dashboard-intro reveal">This interactive dashboard examines operational performance across the U.S. airline network using publicly available flight records. Use the report controls to explore airline reliability, airport operations, route performance, and delay patterns.</p>
+  <div class="power-bi-embed reveal">
+    <iframe
+      title="U.S. Airline Operations Performance Dashboard"
+      src="https://app.powerbi.com/view?r=eyJrIjoiNjYzZDM3YjgtMjNjNi00NjdjLWJhM2ItNzY0MGI4NTcxY2Q4IiwidCI6Ijg0MjRjOGFiLTMxNWMtNDIzMS04Y2FkLTIwNWM4ZDJjMGU1NSJ9&amp;pageName=3c0e5d6b836ecff7fefd"
+      frameborder="0"
+      allowfullscreen="true"
+      loading="lazy">
+    </iframe>
+  </div>
+  <div class="button-row dashboard-actions reveal"><a class="button button-primary" href="https://app.powerbi.com/view?r=eyJrIjoiNjYzZDM3YjgtMjNjNi00NjdjLWJhM2ItNzY0MGI4NTcxY2Q4IiwidCI6Ijg0MjRjOGFiLTMxNWMtNDIzMS04Y2FkLTIwNWM4ZDJjMGU1NSJ9&amp;pageName=3c0e5d6b836ecff7fefd" target="_blank" rel="noopener noreferrer">Open Full Dashboard</a></div>
+</section>
+</main>
+```

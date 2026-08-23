@@ -9,7 +9,7 @@ title-block-banner: false
 <section class="contact-section page-section" aria-labelledby="contact-title">
   <div class="section-heading reveal"><p class="section-number">04</p><h1 id="contact-title">Contact</h1></div>
   <div class="contact-inner reveal"><h2>Let’s connect.</h2><p>Feel free to reach out if you would like to connect or discuss potential opportunities.</p>
-    <div class="contact-links"><a href="mailto:kliao47@gatech.edu"><span>Email</span><strong>kliao47@gatech.edu</strong></a><a href="https://www.linkedin.com/in/kaitao-liao/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>kaitao-liao</strong></a><a href="https://github.com/kaitao-liao" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>kaitao-liao</strong></a></div>
+    <div class="contact-links"><a href="mailto:kliao47@gatech.edu"><span class="contact-heading"><i class="bi bi-envelope contact-icon" aria-hidden="true"></i><span>EMAIL</span></span><strong>kliao47@gatech.edu</strong></a><a href="https://www.linkedin.com/in/kaitao-liao/" target="_blank" rel="noopener noreferrer"><span class="contact-heading"><i class="bi bi-linkedin contact-icon" aria-hidden="true"></i><span>LINKEDIN</span></span></a><a href="https://github.com/kaitao-liao" target="_blank" rel="noopener noreferrer"><span class="contact-heading"><i class="bi bi-github contact-icon" aria-hidden="true"></i><span>GITHUB</span></span></a></div>
   </div>
 </section>
 </main>

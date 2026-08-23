@@ -13,7 +13,7 @@ title-block-banner: false
       <span class="eyebrow-line">GEORGIA INSTITUTE OF TECHNOLOGY</span>
     </p>
     <h1 id="hero-title">From understanding models to improving decisions.</h1>
-    <p class="hero-identity"><strong class="identity-name">Kaitao Liao <span lang="zh-Hans">廖凯涛</span></strong><span class="identity-contact"><span aria-hidden="true">·</span> <a href="mailto:kliao47@gatech.edu">kliao47@gatech.edu</a></span></p>
+    <p class="hero-identity"><strong class="identity-name">Kaitao Liao <span lang="zh-Hans">廖凯涛</span></strong></p>
   </div>
   <div class="portrait-wrap reveal">
     <img class="portrait-image" src="assets/images/portrait.jpeg" alt="Portrait of Kaitao Liao" width="1024" height="1536">

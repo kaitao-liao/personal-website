@@ -10,6 +10,7 @@ project:
     - 404.qmd
   resources:
     - robots.txt
+    - assets/icons/bootstrap-icons.woff
 
 website:
   title: "Kaitao Liao | Industrial and Systems Engineering"
@@ -28,7 +29,9 @@ website:
 format:
   html:
     theme: none
-    css: styles.css
+    css:
+      - assets/icons/bootstrap-icons.css
+      - styles.css
     toc: false
     smooth-scroll: true
     include-in-header:

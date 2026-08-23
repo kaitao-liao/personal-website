@@ -74,9 +74,6 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
 .hero-intro { max-width: 690px; color: var(--muted); font-size: clamp(1.02rem, 1.4vw, 1.2rem); }
 .hero-identity { display: flex; flex-wrap: wrap; gap: .25rem .65rem; align-items: baseline; margin-bottom: 0; color: var(--muted); font-size: clamp(1.05rem, 1.6vw, 1.35rem); }
 .identity-name { color: var(--text); font-family: Georgia, "Times New Roman", "Noto Serif CJK SC", "Songti SC", SimSun, serif; font-weight: 700; white-space: nowrap; }
-.identity-contact { display: inline-flex; gap: .65rem; align-items: baseline; white-space: nowrap; }
-.identity-contact a { color: var(--gold-bright); text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--gold) 55%, transparent); text-decoration-thickness: 1px; text-underline-offset: .24em; }
-.identity-contact a:hover { text-decoration-color: currentColor; }
 .button-row { display: flex; flex-wrap: wrap; gap: .8rem; align-items: center; margin-top: 2rem; }
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 2.9rem; padding: .7rem 1.1rem; border: 1px solid transparent; border-radius: .2rem; font-size: .82rem; font-weight: 750; text-decoration: none; transition: transform 160ms ease, background 160ms ease, color 160ms ease; }
 .button:hover { transform: translateY(-2px); }
@@ -163,9 +160,11 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
 .contact-inner h2 { margin-bottom: 1.5rem; font-size: clamp(3.3rem, 8vw, 7.5rem); font-weight: 500; line-height: 1.08; letter-spacing: -.025em; }
 .contact-section > div > p:not(.section-number) { max-width: 630px; color: var(--muted); font-size: 1.15rem; }
 .contact-links { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 3rem; background: var(--line); border: 1px solid var(--line); }
-.contact-links a { display: flex; flex-direction: column; padding: 1.35rem; background: var(--navy); text-decoration: none; transition: background 160ms ease; }
+.contact-links a { display: flex; min-height: 7rem; flex-direction: column; align-items: flex-start; justify-content: center; padding: 1.35rem; background: var(--navy); text-decoration: none; transition: background 160ms ease; }
 .contact-links a:hover { background: var(--navy-soft); }
-.contact-links span { color: var(--gold-bright); font-size: .68rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+.contact-heading { display: inline-flex; align-items: center; gap: .65rem; color: var(--gold-bright); }
+.contact-heading span { font-size: .68rem; font-weight: 800; letter-spacing: .14em; }
+.contact-icon { color: var(--gold-bright); font-size: 1.25rem; line-height: 1; }
 .contact-links strong { margin-top: .4rem; font-size: .9rem; overflow-wrap: anywhere; }
 .site-footer { display: flex; justify-content: space-between; padding: 1.5rem 0 2.5rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .8rem; }
 .site-footer p { margin: 0; }
@@ -192,7 +191,6 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
   .hero { gap: 3rem; padding-bottom: 5rem; }
   h1 { font-size: clamp(2.35rem, 11vw, 3.4rem); }
   .eyebrow { font-size: .875rem; }
-  .hero-identity { gap: .15rem .55rem; }
   .button-row .button { flex: 1 1 45%; }
   .route-canvas { gap: 2rem; padding: 1.25rem; }
   .timeline-item { gap: 1rem; }

@@ -163,8 +163,8 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
 .contact-links a { display: flex; min-height: 7rem; flex-direction: column; align-items: flex-start; justify-content: center; padding: 1.35rem; background: var(--navy); text-decoration: none; transition: background 160ms ease; }
 .contact-links a:hover { background: var(--navy-soft); }
 .contact-heading { display: inline-flex; align-items: center; gap: .65rem; color: var(--gold-bright); }
-.contact-heading span { font-size: .68rem; font-weight: 800; letter-spacing: .14em; }
-.contact-icon { color: var(--gold-bright); font-size: 1.25rem; line-height: 1; }
+.contact-heading span { font-size: .68rem; font-weight: 800; line-height: 1; letter-spacing: .14em; }
+.contact-icon { display: inline-flex; width: 24px; height: 24px; flex: 0 0 24px; align-items: center; justify-content: center; color: var(--gold-bright); font-size: 20px; line-height: 1; }
 .contact-links strong { margin-top: .4rem; font-size: .9rem; overflow-wrap: anywhere; }
 .site-footer { display: flex; justify-content: space-between; padding: 1.5rem 0 2.5rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .8rem; }
 .site-footer p { margin: 0; }

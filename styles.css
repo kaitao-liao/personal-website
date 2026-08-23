@@ -86,13 +86,7 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
 .button-text { padding-inline: .45rem; color: var(--muted); }
 .disabled-link { cursor: not-allowed; opacity: .72; }
 .portrait-wrap { width: min(420px, 100%); align-self: center; justify-self: end; }
-.portrait-placeholder { width: 100%; height: 520px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; text-align: center; background: var(--navy-soft); border: 1px solid var(--line); box-shadow: var(--shadow); position: relative; }
-.portrait-placeholder::before, .portrait-placeholder::after { content: ""; position: absolute; width: 2.25rem; height: 2.25rem; }
-.portrait-placeholder::before { inset: 1rem auto auto 1rem; border-top: 1px solid var(--gold); border-left: 1px solid var(--gold); }
-.portrait-placeholder::after { inset: auto 1rem 1rem auto; border-right: 1px solid var(--gold); border-bottom: 1px solid var(--gold); }
-.portrait-placeholder strong { font-family: Georgia, serif; font-size: 1.45rem; }
-.placeholder-kicker { color: var(--muted); }
-.placeholder-kicker { margin-bottom: .6rem; font-size: .67rem; font-weight: 800; letter-spacing: .2em; }
+.portrait-image { display: block; width: 100%; height: 520px; object-fit: cover; object-position: 50% 30%; border: 1px solid var(--line); box-shadow: var(--shadow); }
 .content-section { padding: clamp(6rem, 11vw, 10rem) 0; border-top: 1px solid var(--line); }
 .section-heading { display: flex; gap: 1.25rem; align-items: baseline; margin-bottom: clamp(2.5rem, 5vw, 4.5rem); }
 .section-heading .section-number { margin: 0; }
@@ -186,7 +180,7 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
   .site-nav a { padding: .9rem 0; }
   .hero { width: auto; margin-left: 0; grid-template-columns: 1fr; min-height: auto; padding-top: 9rem; }
   .portrait-wrap { justify-self: start; }
-  .portrait-placeholder { height: auto; aspect-ratio: 4 / 5; }
+  .portrait-image { height: auto; aspect-ratio: 4 / 5; }
   .about-grid, .featured-project { grid-template-columns: 1fr; }
   .project-media { height: auto; padding: 1rem; }
 }

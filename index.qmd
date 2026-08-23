@@ -16,8 +16,7 @@ title-block-banner: false
     <p class="hero-identity"><strong class="identity-name">Kaitao Liao <span lang="zh-Hans">廖凯涛</span></strong><span class="identity-contact"><span aria-hidden="true">·</span> <a href="mailto:kliao47@gatech.edu">kliao47@gatech.edu</a></span></p>
   </div>
   <div class="portrait-wrap reveal">
-    <!-- TODO: Replace this placeholder with your portrait at assets/images/portrait.jpg, then replace the div with an img using alt="Portrait of Kaitao Liao". -->
-    <div class="portrait-placeholder" role="img" aria-label="Professional portrait placeholder"><span class="placeholder-kicker">PORTRAIT</span><strong>Portrait coming soon</strong></div>
+    <img class="portrait-image" src="assets/images/portrait.jpeg" alt="Portrait of Kaitao Liao" width="1024" height="1536">
   </div>
 </section>
 </main>

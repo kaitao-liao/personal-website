@@ -11,6 +11,8 @@ project:
   resources:
     - robots.txt
     - assets/icons/bootstrap-icons.woff
+    - airline-dashboard/index.html
+    - assets/images/airline-dashboard-cover.png
 
 website:
   title: "Kaitao Liao | Industrial and Systems Engineering"

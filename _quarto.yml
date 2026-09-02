@@ -15,15 +15,14 @@ project:
     - assets/images/airline-dashboard-cover.png
 
 website:
-  title: "Kaitao Liao | Industrial and Systems Engineering"
-  site-url: "https://kaitao-liao.github.io/personal-website/"
-  site-path: "/personal-website/"
-  description: "Kaitao Liao studies Industrial and Systems Engineering at Georgia Tech, with interests in quantitative research and data-driven decision problems."
+  title: "https://kaitaoliao.com"
+  site-url: "https://kaitaoliao.com/"
+  description: "Kaitao Liao studies Industrial Engineering at Georgia Tech, with interests in quantitative research and data-driven decision problems."
   favicon: assets/images/favicon-placeholder.svg # TODO: Replace with your final favicon.
   open-graph:
-    title: "Kaitao Liao | Industrial and Systems Engineering"
+    title: "Kaitao Liao | Personal Website"
     description: "Georgia Tech student focused on quantitative research and data-driven decision problems."
-    site-name: "Kaitao Liao"
+    site-name: "https://kaitaoliao.com"
   page-navigation: false
   search: false
   navbar: false
@@ -35,6 +34,7 @@ format:
       - assets/icons/bootstrap-icons.css
       - styles.css
     toc: false
+    canonical-url: true
     smooth-scroll: true
     include-in-header:
       text: |

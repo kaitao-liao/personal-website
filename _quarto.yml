@@ -4,7 +4,8 @@ project:
   render:
     - index.qmd
     - about.qmd
-    - experience.qmd
+    - work.qmd
+    - research.qmd
     - projects.qmd
     - contact.qmd
     - 404.qmd

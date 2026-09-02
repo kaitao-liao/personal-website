@@ -1,0 +1,38 @@
+---
+pagetitle: "Work | Kaitao Liao"
+description: "Professional and employment experience."
+title-block-banner: false
+---
+
+```{=html}
+<main id="page-top">
+<section class="content-section page-section" aria-labelledby="work-title">
+  <div class="section-heading reveal"><p class="section-number">02</p><h1 id="work-title">Work</h1></div>
+  <section class="experience-group" aria-labelledby="work-experience-title">
+    <h2 class="experience-group-title reveal" id="work-experience-title">Work Experience</h2>
+    <div class="timeline">
+      <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">
+        <h3>Division of Biological and Biomedical Sciences — Emory Laney Graduate School</h3>
+        <p class="experience-role">Project and Administrative Assistant</p>
+        <p class="experience-date">September 2025 – May 2026</p>
+        <ul class="dash-list">
+          <li>Managed and validated thousands of alumni and research records across multiple academic programs, maintaining high standards of data accuracy and consistency.</li>
+          <li>Analyzed institutional data and prepared concise summaries that informed internal planning and supported day-to-day administrative work.</li>
+          <li>Streamlined and digitized record-management workflows by archiving and verifying legacy data, improving data accessibility.</li>
+        </ul>
+      </div></article>
+      <article class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-content">
+        <h3>Shenzhen Southport Golf Supplies Co., Ltd.</h3>
+        <p class="experience-role">Factory Operations and Data Assistant</p>
+        <p class="experience-date">June 2023 – August 2023</p>
+        <ul class="dash-list">
+          <li>Learned the basic steps of golf product manufacturing, including material preparation, simple assembly, and packaging.</li>
+          <li>Recorded daily production numbers and organized the data for supervisor review.</li>
+          <li>Assisted with material preparation and observed the tools and machines used throughout the production process.</li>
+        </ul>
+      </div></article>
+    </div>
+  </section>
+</section>
+</main>
+```

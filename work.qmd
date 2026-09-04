@@ -15,7 +15,6 @@ title-block-banner: false
         <h3>MS Analytics Program — Georgia Institute of Technology</h3>
         <p class="experience-role">Technical Assistant</p>
         <p class="experience-date">September 2026 – Present</p>
-        <p>Atlanta, Georgia, United States</p>
         <ul class="dash-list">
           <li>Utilize Python to clean and process data, ensuring data integrity and reliability.</li>
           <li>Develop and maintain web-scraping scripts to collect data from employer websites, job postings, alumni sources, and other industry sources for program reporting.</li>
